@@ -1,4 +1,4 @@
 # kaleidoscope
-kaleidoscope with css js and html
+homepage with kaleidoscope background  made it with css js and html and vue
 
-works on https://jaredshito.github.io/kaleidoscope/
+works on https://jaredshito.github.io/kaleido/
