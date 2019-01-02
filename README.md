@@ -1,2 +1,4 @@
-# kaleido
-a homepage with kaleidoscope background , made it with vue, css and materialize
+# kaleidoscope
+kaleidoscope with css js and html
+
+works on https://jaredshito.github.io/kaleidoscope/
