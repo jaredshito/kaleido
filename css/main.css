@@ -27,7 +27,7 @@ width:130%;
 -moz-transform:rotate(30deg);
 -o-transform:rotate(30deg);
 transform:rotate(30deg);
-position:relative;
+position:absolute;
 -webkit-transform-origin:left top;
 -moz-transform-origin:left top;
 -o-transform-origin:left top;
@@ -130,12 +130,28 @@ background-image:url(../patterns/pic2.jpg)
   padding: 0;
   pointer-events: all;
   /* white-space: nowrap; */
-  font-style: italic;
+  /* font-style: italic; */
   z-index: 1;
-  font-size: 25px;
+  font-size: 20px;
   color: white;
   position: absolute;
   top: 30%;
+  left: 50%;
+  transform: translate3d(-50%,-50%,0);
+
+}
+.el-navbar {
+  margin: 0;
+  padding: 0;
+  pointer-events: all;
+  /* white-space: nowrap; */
+  /* font-style: italic; */
+  z-index: 1;
+  font-size: 30px;
+  color: white;
+  position: absolute;
+  background-color: black;
+  top: 4%;
   left: 50%;
   transform: translate3d(-50%,-50%,0);
 
