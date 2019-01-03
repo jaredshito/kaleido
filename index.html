@@ -4,19 +4,61 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="css/main.css" type="text/css" media="all" />
-    <script src="js/jquery.min.js" type="text/javascript"></script>
+
+  <script src="js/jquery.min.js" type="text/javascript"></script>
   <script src="js/main.js" type="text/javascript"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
   <title>HOMEPAGE</title>
   <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/vue-resource@1.5.1"></script>     
   <link href="https://fonts.googleapis.com/css?family=Pompiere" rel="stylesheet">
+  <script src="js/drop.js" type="text/javascript" ></script>
+
+
+
+
 
 </head>
         
         
 <body>
+  
+    <ul id="dropdown1" class="dropdown-content">
+        <li><a href="http://desarrollohumano.urrea.com/">Desarrollo humano</a></li>
+        <li><a href="https://gudh1.sharepoint.com/sites/ProyectosTI/SitePages/Documentaci%C3%B3n%20de%20proyectos.aspx?web=1">Sharepoint</a></li>
+    </ul>
+
+    <ul id="dropdown2" class="dropdown-content">
+      <li><a href="https://www.tumblr.com/">TUMBLR</a></li>
+      <li><a href="http://www.instagram.com">INSTAGRAM</a></li>
+      <li><a href="https://web.whatsapp.com/">WEB-WHATSAPP</a></li>
+    </ul>
+
+    <ul id="dropdown3" class="dropdown-content">
+      <li><a href="http://www.color-hex.com/">hexa-colors</a></li>
+      <li><a href="https://www.w3schools.com">W3-SCHOOL</a></li>
+    </ul>
+
+    <ul id="dropdown4" class="dropdown-content">
+      <li><a href="https://www.youtube.com/user/stayseemusic">Just good music</a></li>
+    </ul> 
+
+      <nav class="el-navbar" >
+        <div class="nav-wrapper">
+         
+          <ul class="right ">
+            <!-- Dropdown Trigger -->
+            <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Trabajo</a></li>
+            <li><a class="dropdown-trigger" href="#!" data-target="dropdown2">Redes Sociales</a></li>
+            <li><a class="dropdown-trigger" href="#!" data-target="dropdown3">Diseño Web</a></li>
+            <li><a class="dropdown-trigger" href="#!" data-target="dropdown4">Musica</a></li>
+          </ul>
+        </div>
+      </nav>
+      
+  
 
   <!--Inicia accesos directos-->
   <div class="container accesos-directos">
