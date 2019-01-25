@@ -1,4 +1,4 @@
 # kaleidoscope
-kaleidoscope with css js and html
+homepage with a kaleidoscopebackground do it  with css js and html
 
-works on https://jaredshito.github.io/kaleidoscope/
+works on https://jaredshito.github.io/kaleido/
